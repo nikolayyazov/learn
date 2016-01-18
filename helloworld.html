@@ -1,4 +1,12 @@
 <meta charset="utf-8">
 <script>
-alert("Hello, World!\nHello, everybody!");
+var name=prompt('Hello, World!\nHello, Friend!\nWhat is your name?');
+var how=prompt("Good time of day, " + name +'!\nHow are you? (type "Good" or "Bad")');
+if (how=='Good') {
+	alert('It`s great!');
+} else if (how=='Bad') {
+	alert('Cheer up!');
+} else {
+	alert('Didn`t understand');
+}
 </script>
